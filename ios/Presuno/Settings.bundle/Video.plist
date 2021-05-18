@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StringsTable</key>
+	<string>Root</string>
+	<key>Title</key>
+	<string>Video</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<string>back</string>
+			<key>Key</key>
+			<string>pref_camera</string>
+			<key>Title</key>
+			<string>Initial camera</string>
+			<key>Titles</key>
+			<array>
+				<string>Back side</string>
+				<string>Front side</string>
+			</array>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<string>back</string>
+				<string>front</string>
+			</array>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<string>Auto</string>
+			<key>Key</key>
+			<string>pref_device_type</string>
+			<key>Title</key>
+			<string>Back camera lens</string>
+			<key>Titles</key>
+			<array>
+				<string>Auto</string>
+				<string>Standard (Wide)</string>
+				<string>Ultra wide</string>
+				<string>Telephoto</string>
+			</array>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<string>Auto</string>
+				<string>AVCaptureDeviceTypeBuiltInWideAngleCamera</string>
+				<string>AVCaptureDeviceTypeBuiltInUltraWideCamera</string>
+				<string>AVCaptureDeviceTypeBuiltInTelephotoCamera</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Resolution</string>
+			<key>Key</key>
+			<string>pref_resolution</string>
+			<key>DefaultValue</key>
+			<string>720</string>
+			<key>Values</key>
+			<array>
+				<string>2160</string>
+				<string>1080</string>
+				<string>720</string>
+				<string>540</string>
+				<string>480</string>
+				<string>360</string>
+				<string>288</string>
+				<string>144</string>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>3840x2160</string>
+				<string>1920x1080</string>
+				<string>1280x720</string>
+				<string>960x540</string>
+				<string>640x480</string>
+				<string>480x360</string>
+				<string>352x288</string>
+				<string>192x144</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Orientation</string>
+			<key>Key</key>
+			<string>pref_orientation</string>
+			<key>DefaultValue</key>
+			<string>landscape</string>
+			<key>Values</key>
+			<array>
+				<string>landscape</string>
+				<string>portrait</string>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>Landscape</string>
+				<string>Portrait</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Titles</key>
+			<array>
+				<string>Off</string>
+				<string>Picture-in-picture</string>
+				<string>Side-by-side</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<string>off</string>
+				<string>pip</string>
+				<string>sideBySide</string>
+			</array>
+			<key>Title</key>
+			<string>Muti-camera capture</string>
+			<key>Key</key>
+			<string>pref_multi_cam</string>
+			<key>DefaultValue</key>
+			<string>off</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Stabilization mode</string>
+			<key>Key</key>
+			<string>pref_stabilization_mode</string>
+			<key>DefaultValue</key>
+			<string>off</string>
+			<key>Titles</key>
+			<array>
+				<string>Off</string>
+				<string>Standard</string>
+				<string>Cinematic</string>
+				<string>Cinematic extended</string>
+				<string>Auto</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<string>off</string>
+				<string>standard</string>
+				<string>cinematic</string>
+				<string>cinematicExtended</string>
+				<string>auto</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Live rotation</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Live rotation</string>
+			<key>Key</key>
+			<string>pref_core_image</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Mode</string>
+			<key>Key</key>
+			<string>pref_live_rotation</string>
+			<key>DefaultValue</key>
+			<string>on</string>
+			<key>Titles</key>
+			<array>
+				<string>Follow screen rotation</string>
+				<string>Lock while broadcasting</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<string>on</string>
+				<string>off</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Bitrate (Kbps)</string>
+			<key>Key</key>
+			<string>pref_video_bitrate</string>
+			<key>DefaultValue</key>
+			<string>0</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Frame rate</string>
+			<key>Key</key>
+			<string>pref_fps</string>
+			<key>DefaultValue</key>
+			<string>30</string>
+			<key>Values</key>
+			<array>
+				<string>15</string>
+				<string>25</string>
+				<string>30</string>
+				<string>50</string>
+				<string>60</string>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>15 fps</string>
+				<string>25 fps</string>
+				<string>30 fps</string>
+				<string>50 fps</string>
+				<string>60 fps</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Keyframe frequency</string>
+			<key>Key</key>
+			<string>pref_keyframe</string>
+			<key>DefaultValue</key>
+			<string>2</string>
+			<key>Values</key>
+			<array>
+				<string>1</string>
+				<string>2</string>
+				<string>4</string>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>1 sec</string>
+				<string>2 sec</string>
+				<string>4 sec</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Format</string>
+			<key>Key</key>
+			<string>pref_video_codec_type</string>
+			<key>DefaultValue</key>
+			<string>h264</string>
+			<key>Values</key>
+			<array>
+				<string>h264</string>
+				<string>hevc</string>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>H.264</string>
+				<string>HEVC</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>H.264 profile</string>
+			<key>Key</key>
+			<string>pref_avc_profile</string>
+			<key>DefaultValue</key>
+			<string>baseline</string>
+			<key>Values</key>
+			<array>
+				<string>baseline</string>
+				<string>main</string>
+				<string>high</string>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>Baseline</string>
+				<string>Main</string>
+				<string>High</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>HEVC profile</string>
+			<key>Key</key>
+			<string>pref_hevc_profile</string>
+			<key>DefaultValue</key>
+			<string>main</string>
+			<key>Values</key>
+			<array>
+				<string>main</string>
+				<string>main10</string>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>Main</string>
+				<string>Main 10</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Adaptive bitrate streaming</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Mode</string>
+			<key>Key</key>
+			<string>abr_mode</string>
+			<key>DefaultValue</key>
+			<string>0</string>
+			<key>Values</key>
+			<array>
+				<string>0</string>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>Off</string>
+				<string>Logarithmic descend</string>
+				<string>Ladder ascend</string>
+				<string>Hybrid</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Adaptive frame rate</string>
+			<key>Key</key>
+			<string>adaptive_fps</string>
+			<key>DefaultValue</key>
+			<string>NO</string>
+		</dict>
+	</array>
+</dict>
+</plist>

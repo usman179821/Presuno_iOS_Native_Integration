@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StringsTable</key>
+	<string>Root</string>
+	<key>Title</key>
+	<string>Audio</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Input</string>
+			<key>Key</key>
+			<string>pref_session_port</string>
+			<key>DefaultValue</key>
+			<string>AudioSessionPortAutoSelect</string>
+			<key>Values</key>
+			<array>
+				<string>AudioSessionPortAutoSelect</string>
+				<string>AudioSessionPortBuiltInMic</string>
+				<string>AudioSessionPortHeadsetMic</string>
+				<string>AudioSessionPortBluetoothHFP</string>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>Auto</string>
+				<string>Built-In Microphone</string>
+				<string>Headset Microphone</string>
+				<string>Bluetooth Microphone</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Channel count</string>
+			<key>Key</key>
+			<string>pref_channel_count</string>
+			<key>DefaultValue</key>
+			<string>1</string>
+			<key>Values</key>
+			<array>
+				<string>1</string>
+				<string>2</string>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>Mono</string>
+				<string>Stereo</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Bitrate</string>
+			<key>Key</key>
+			<string>pref_audio_bitrate</string>
+			<key>DefaultValue</key>
+			<string>0</string>
+			<key>Values</key>
+			<array>
+				<string>0</string>
+				<string>96</string>
+				<string>128</string>
+				<string>160</string>
+				<string>256</string>
+				<string>320</string>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>Match input</string>
+				<string>96 Kbps</string>
+				<string>128 Kbps</string>
+				<string>160 Kbps</string>
+				<string>256 Kbps</string>
+				<string>320 Kbps</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Sample rate</string>
+			<key>Key</key>
+			<string>pref_sample_rate</string>
+			<key>DefaultValue</key>
+			<string>0</string>
+			<key>Values</key>
+			<array>
+				<string>0</string>
+				<string>48000</string>
+				<string>44100</string>
+				<string>32000</string>
+				<string>24000</string>
+				<string>22050</string>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>Match input</string>
+				<string>48 kHz</string>
+				<string>44.1 kHz</string>
+				<string>32 kHz</string>
+				<string>24 kHz</string>
+				<string>22.05 kHz</string>
+			</array>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<string>0</string>
+			<key>Key</key>
+			<string>pref_radio_mode</string>
+			<key>Title</key>
+			<string>Audio-only capture</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+		</dict>
+		<dict>
+			<key>Key</key>
+			<string>pref_volume_keys</string>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Volume keys</string>
+			<key>DefaultValue</key>
+			<string>off</string>
+			<key>Values</key>
+			<array>
+				<string>on</string>
+				<string>off</string>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>Start/stop broadcast</string>
+				<string>Do nothing</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

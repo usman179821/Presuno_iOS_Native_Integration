@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Presuno.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>682F2CE70559C7EB9BD172332F5EF94828716FFC</string>
+				<key>dateExpires</key>
+				<string>05/09/1443 AH</string>
+				<key>type</key>
+				<string>Apple Development</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>682F2CE70559C7EB9BD172332F5EF94828716FFC</string>
+						<key>dateExpires</key>
+						<string>05/09/1443 AH</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>CocoaLumberjack.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>T6SEJ2BU27</string>
+						<key>name</key>
+						<string>CPH Cloud Company</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>682F2CE70559C7EB9BD172332F5EF94828716FFC</string>
+						<key>dateExpires</key>
+						<string>05/09/1443 AH</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>DeviceGuru.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>T6SEJ2BU27</string>
+						<key>name</key>
+						<string>CPH Cloud Company</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>682F2CE70559C7EB9BD172332F5EF94828716FFC</string>
+						<key>dateExpires</key>
+						<string>05/09/1443 AH</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>Eureka.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>T6SEJ2BU27</string>
+						<key>name</key>
+						<string>CPH Cloud Company</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>682F2CE70559C7EB9BD172332F5EF94828716FFC</string>
+						<key>dateExpires</key>
+						<string>05/09/1443 AH</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>GRDB.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>T6SEJ2BU27</string>
+						<key>name</key>
+						<string>CPH Cloud Company</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>682F2CE70559C7EB9BD172332F5EF94828716FFC</string>
+						<key>dateExpires</key>
+						<string>05/09/1443 AH</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>SwiftMessages.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>T6SEJ2BU27</string>
+						<key>name</key>
+						<string>CPH Cloud Company</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>682F2CE70559C7EB9BD172332F5EF94828716FFC</string>
+						<key>dateExpires</key>
+						<string>05/09/1443 AH</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>SwiftTryCatch.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>T6SEJ2BU27</string>
+						<key>name</key>
+						<string>CPH Cloud Company</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>682F2CE70559C7EB9BD172332F5EF94828716FFC</string>
+						<key>dateExpires</key>
+						<string>05/09/1443 AH</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>Toaster.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>T6SEJ2BU27</string>
+						<key>name</key>
+						<string>CPH Cloud Company</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>T6SEJ2BU27.com.amoxt.presuno</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>T6SEJ2BU27</string>
+				<key>get-task-allow</key>
+				<true/>
+			</dict>
+			<key>name</key>
+			<string>Presuno.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>1aa4b033-a57f-4f3e-9e44-f4755a4c2c84</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: com.amoxt.presuno</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>T6SEJ2BU27</string>
+				<key>name</key>
+				<string>CPH Cloud Company</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

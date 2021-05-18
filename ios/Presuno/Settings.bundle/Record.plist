@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>Video</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<false/>
+			<key>Key</key>
+			<string>pref_record_stream</string>
+			<key>Title</key>
+			<string>Record stream</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<string>local</string>
+			<key>Key</key>
+			<string>pref_record_storage</string>
+			<key>Title</key>
+			<string>Storage</string>
+			<key>Titles</key>
+			<array>
+				<string>Local</string>
+				<string>Photo Library</string>
+				<string>iCloud</string>
+			</array>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<string>local</string>
+				<string>photoLibrary</string>
+				<string>iCloud</string>
+			</array>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<integer>0</integer>
+			<key>Key</key>
+			<string>pref_record_duration</string>
+			<key>Title</key>
+			<string>Split video into sections</string>
+			<key>Titles</key>
+			<array>
+				<string>Off</string>
+				<string>15 min</string>
+				<string>30 min</string>
+				<string>1 hour</string>
+				<string>2 hours</string>
+			</array>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<string>0</string>
+				<string>15</string>
+				<string>30</string>
+				<string>60</string>
+				<string>120</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Photo</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<string>jpg</string>
+			<key>Key</key>
+			<string>pref_snapshot_format</string>
+			<key>Title</key>
+			<string>Snapshot format</string>
+			<key>Titles</key>
+			<array>
+				<string>High Effeciency</string>
+				<string>Most Compatible</string>
+			</array>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<string>heic</string>
+				<string>jpg</string>
+			</array>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Root</string>
+	<key>Title</key>
+	<string>Record</string>
+</dict>
+</plist>

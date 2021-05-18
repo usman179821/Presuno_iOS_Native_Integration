@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>DefaultValue</key>
+			<string>fill</string>
+			<key>Key</key>
+			<string>pref_preview_mode</string>
+			<key>Title</key>
+			<string>Preview mode</string>
+			<key>Titles</key>
+			<array>
+				<string>Fill screen</string>
+				<string>Fit screen</string>
+			</array>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<string>fill</string>
+				<string>fit</string>
+			</array>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<string>1</string>
+			<key>Key</key>
+			<string>pref_display_vumeter</string>
+			<key>Title</key>
+			<string>Show VU meter</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Grid 3x3</string>
+			<key>Key</key>
+			<string>pref_grid_33</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Show safe margins</string>
+			<key>Key</key>
+			<string>pref_display_safe_margins</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Safe margins ratios</string>
+			<key>Titles</key>
+			<array>
+				<string>1:1 (1.0)</string>
+				<string>5:4 (1.25)</string>
+				<string>4:3 (1.33)</string>
+				<string>3:2 (1.5)</string>
+				<string>14:9 (1.56)</string>
+				<string>16:9 (1.78)</string>
+				<string>2:1 (2.0)</string>
+				<string>19.5:9 (2.17)</string>
+				<string>21:9 (2.33)</string>
+			</array>
+			<key>Key</key>
+			<string>pref_display_safe_margins_ratio</string>
+			<key>Values</key>
+			<array>
+				<string>1:1</string>
+				<string>5:4</string>
+				<string>4:3</string>
+				<string>3:2</string>
+				<string>14:9</string>
+				<string>16:9</string>
+				<string>2:1</string>
+				<string>39:18</string>
+				<string>21:9</string>
+			</array>
+			<key>DefaultValue</key>
+			<string>16:9</string>
+		</dict>
+		<dict>
+			<key>TrueValue</key>
+			<dict>
+				<key>Type</key>
+				<string>PSMultiValueSpecifier</string>
+				<key>Title</key>
+				<string>Safe margins ratios</string>
+				<key>Titles</key>
+				<array>
+					<string>1:1 (1.0)</string>
+					<string>5:4 (1.25)</string>
+					<string>4:3 (1.33)</string>
+					<string>3:2 (1.5)</string>
+					<string>14:9 (1.56)</string>
+					<string>16:9 (1.78)</string>
+					<string>2:1 (2.0)</string>
+					<string>19.5:9 (2.17)</string>
+					<string>21:9 (2.33)</string>
+				</array>
+				<key>Key</key>
+				<string>pref_display_safe_margins_ratio</string>
+				<key>Values</key>
+				<array>
+					<string>1:1</string>
+					<string>5:4</string>
+					<string>4:3</string>
+					<string>3:2</string>
+					<string>14:9</string>
+					<string>16:9</string>
+					<string>2:1</string>
+					<string>39:18</string>
+					<string>21:9</string>
+				</array>
+				<key>DefaultValue</key>
+				<string>16:9</string>
+			</dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Show horizon level</string>
+			<key>Key</key>
+			<string>pref_display_horizon</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Show battery indicator</string>
+			<key>Key</key>
+			<string>pref_display_battery</string>
+			<key>DefaultValue</key>
+			<string>100</string>
+			<key>Values</key>
+			<array>
+				<string>100</string>
+				<string>40</string>
+				<string>30</string>
+				<string>25</string>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>Always</string>
+				<string>Below 40%</string>
+				<string>Below 30%</string>
+				<string>Below 25%</string>
+			</array>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Root</string>
+	<key>Title</key>
+	<string>Displsy</string>
+</dict>
+</plist>
